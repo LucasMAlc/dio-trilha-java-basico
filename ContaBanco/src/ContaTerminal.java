@@ -1,4 +1,3 @@
-import java.util.Locale;
 import java.util.Scanner;
 
 public class ContaTerminal {
@@ -23,6 +22,7 @@ public class ContaTerminal {
         //Imprimindo os dados obtidos
         System.out.println("Ola " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numero + " e seu saldo " + saldo + " já está disponével para saque.");
         
+        scanner.close();
     }
 }
 
